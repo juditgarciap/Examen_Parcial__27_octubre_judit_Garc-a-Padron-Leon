@@ -31,3 +31,6 @@ def binaryToDecimal(n):
 tabla1 = crear_tabla(255)
 tabla2 = crear_tabla(255)
 
+
+
+

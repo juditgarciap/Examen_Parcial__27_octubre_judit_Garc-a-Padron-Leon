@@ -20,6 +20,9 @@ class alumnosprimero (Alumnos):
 Alumno1 = alumnosprimero ('Juan', 7, 'SI')
 Alumno2 = alumnosprimero ('Carla',2, 'NO')
 
+print(Alumno1.str())
+print(Alumno2.str())
+
 if __name__ == "__name__":
     import doctest 
     doctest.tesmode()

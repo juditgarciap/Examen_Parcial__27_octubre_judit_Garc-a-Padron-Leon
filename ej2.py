@@ -2,7 +2,8 @@
 def centinela(lista,buscado):
 
 posicion = -1
-for i in range 
+for i in range (0,len(lista)):
+    
 
 
 

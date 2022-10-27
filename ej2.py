@@ -1,14 +1,16 @@
-#en los apuntes podemos tambien encontrar este algoritmo y creo que tambien se puede resolver con este
+#en los apuntes podemos  encontrar este algoritmo y creo que tambien se puede resolver con este
 def centinela(lista,buscado):
 
 posicion = -1
 for i in range (0,len(lista)):
-    
+    if (lista[i] == buscado):
+        posicion = i
+        break 
+    return posicion
 
-
-
-
-
+print (centinela(lista,145))
+if 145 not in lista:
+    print(-1)
 
 
 

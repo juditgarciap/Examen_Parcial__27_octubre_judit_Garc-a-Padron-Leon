@@ -1,7 +1,8 @@
 #en los apuntes podemos tambien encontrar este algoritmo y creo que tambien se puede resolver con este
 def centinela(lista,buscado):
 
-pos
+posicion = -1
+for i in range 
 
 
 

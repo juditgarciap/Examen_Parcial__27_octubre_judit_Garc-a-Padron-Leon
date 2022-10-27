@@ -1,4 +1,4 @@
-#ejercicio parecido a vehiculos, hecho en este repositorio https://github.com/juditgarciap/EjPOO.git, el codigo lo he reutilizado
+#ejercicio parecido a vehiculos, hecho en este repositorio https://github.com/juditgarciap/EjPOO.git
 
 class Alumnos():
     def __innit__ (self, nombre,nota):
@@ -7,13 +7,14 @@ class Alumnos():
     def __str__ (self):
         return 'nombre del alumno {}, nota del alumno {}'
 
+#Lo he hecho con POO porque es mejor wue con listas
 alumnos = []
-def calificacion (lista_alumnos):
-    for alumno in lista_alumnos:
+def calificacionalu (self):
+    if self.nota>= 5:
+        mensaje= "El alumno tiene una nota de: {}.format(self.nota), ha aprobado"
 
-
-
-
-
-
+    else:
+        mensaje= "El alumno tiene una nota de: {}.format (self.nota), ha suspendido"
+    
+    return mensaje 
 

@@ -6,6 +6,7 @@ class Alumnos():
         self.nota = nota 
     def __str__ (self):
         return 'nombre del alumno {}, nota del alumno {}'
+print ('El alumno se ha creado con éxito')
 
 #Lo he hecho con POO porque es mejor wue con listas
 alumnos = []

@@ -20,4 +20,14 @@ def agregar(tabla, dato, conver):
         print('existe una colision')
 
 
+def convert8chr(s: str) -> str:
+    if not s.isascii():
+        raise ValueError("ASCII only allowed")
+    return " ".join(f"{ord(i):08b}" for i in s)
+
+def binaryToDecimal(n):
+    return int(n,2)
+
+tabla1 = crear_tabla(255)
+tabla2 = crear_tabla(255)
 

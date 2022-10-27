@@ -14,6 +14,8 @@ for i in range (0,len(lista)):
 
 
 
+
+
 #hay un metodo para ordenar listas mergesort ( no se si esto se debe usar así)
 
 from csv import list_dialects

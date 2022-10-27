@@ -1,2 +1,2 @@
 # Examen_Parcial__27_octubre_judit_Garc-a-Padron-Leon
-git@github.com:juditgarciap/Examen_Parcial__27_octubre_judit_Garc-a-Padron-Leon.git
+https://github.com/juditgarciap/Examen_Parcial__27_octubre_judit_Garc-a-Padron-Leon.git

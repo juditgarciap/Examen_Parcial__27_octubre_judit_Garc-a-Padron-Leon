@@ -2,5 +2,7 @@ from cgi import test
 from unicodedata import name
 
 
-if name == name
-unit test
+if __name__ == "__name__":
+    import doctest 
+    doctest.tesmode()
+    

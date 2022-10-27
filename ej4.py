@@ -19,3 +19,8 @@ class alumnosprimero (Alumnos):
 
 Alumno1 = alumnosprimero ('Juan', 7, 'SI')
 Alumno2 = alumnosprimero ('Carla',2, 'NO')
+
+if __name__ == "__name__":
+    import doctest 
+    doctest.tesmode()
+    

@@ -9,7 +9,7 @@ class Alumnos():
 print ('El alumno se ha creado con éxito')
 
 #Lo he hecho con POO porque es mejor que con listas
-alumnos = []
+
 def calificacionalu (self):
     if self.nota>= 5:
         mensaje= "El alumno tiene una nota de: {}.format(self.nota), ha aprobado"
@@ -19,3 +19,9 @@ def calificacionalu (self):
     
     return mensaje 
 
+
+
+if __name__ == "__name__":
+    import doctest 
+    doctest.tesmode()
+    

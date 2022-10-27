@@ -8,7 +8,7 @@ class Alumnos():
         return 'nombre del alumno {}, nota del alumno {}'
 print ('El alumno se ha creado con éxito')
 
-#Lo he hecho con POO porque es mejor wue con listas
+#Lo he hecho con POO porque es mejor que con listas
 alumnos = []
 def calificacionalu (self):
     if self.nota>= 5:
